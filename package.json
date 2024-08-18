@@ -1,11 +1,11 @@
 {
   "name": "artvista",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server --ignore './client' ",
+    "server": "nodemon server --ignore './cl",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
